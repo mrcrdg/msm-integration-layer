@@ -95,7 +95,7 @@
     "company": "Water Provider 1",
     "facility": "Facility A",
     "quantity": 5,
-    "unit": "L",
+    "quantity_unit": "L",
     "transaction_start_date": "2025-03-27T00:00:00.000000",
     "transaction_end_date": "2025-03-27T07:48:43.440546",
     "water_transaction_type": "Withdrawal"
@@ -108,7 +108,7 @@
     "company": "Water Provider 2",
     "facility": "Contoso Warehouse",
     "quantity": 5,
-    "unit": "L",
+    "quantity_unit": "L",
     "transaction_start_date": "2025-03-30T00:00:00.000000",
     "transaction_end_date": "2025-03-30T07:48:43.440546",
     "water_transaction_type": "Consumption"
@@ -121,7 +121,7 @@
     "company": "Energy Provider 1",
     "facility": "Contoso Warehouse",
     "quantity": 50,
-    "unit": "MWh",
+    "quantity_unit": "MWh",
     "timestamp": "2025-02-14T07:48:43.440546",
     "consumption_end_date": "2025-03-30T07:48:43.440546"
   },
@@ -133,7 +133,7 @@
     "company": "Energy Provider 2",
     "facility": "Contoso Warehouse",
     "quantity": 150,
-    "unit": "MWh",
+    "quantity_unit": "MWh",
     "timestamp": "2025-02-14T07:48:43.440546",
     "consumption_end_date": "2025-03-30T07:48:43.440546"
   }
