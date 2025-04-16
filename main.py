@@ -1,9 +1,9 @@
-# main.py
 from fastapi import FastAPI
 from typing import List, Optional
 from pydantic import BaseModel
 from datetime import datetime
 import json
+import uuid
 
 app = FastAPI()
 
@@ -28,11 +28,39 @@ class EmissionData(BaseModel):
     unit: Optional[str] = None
     water_transaction_type: Optional[str] = None
 
-# Load data from external JSON file
-with open("data/data.json") as f:
-    raw_data = json.load(f)
-    data = [EmissionData(**item) for item in raw_data]
+# New models:
+class Metadata(BaseModel):
+    createdAt: datetime
+    name: str
+    readCountRemaining: int
+    timeToExpire: int
 
-@app.get("/emissions", response_model=List[EmissionData])
-def get_emissions():
-    return data
+class MSMWrapper(BaseModel):
+    id: str
+    metadata: Metadata
+    record: List[EmissionData]
+
+# Load full wrapped payload from file
+with open("data/data.json") as f:
+    raw_data  = json.load(f)
+
+# Convert the inner record to validated model list
+emission_data = [EmissionData(**item) for item in raw_data]
+
+# Build the final validated MSM payload
+msm_payload = MSMWrapper(
+    id=uuid.uuid4().hex[:24],
+    metadata=Metadata(
+        createdAt=datetime.utcnow(),
+        name="SUSTAINABILITY",
+        readCountRemaining=77,
+        timeToExpire=86400
+    ),
+    record=emission_data
+)
+
+# Route returning the wrapped MSM payload
+@app.get("/emissions", response_model=MSMWrapper)
+def get_msm_payload():
+    return msm_payload
+    
