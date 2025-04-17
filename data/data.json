@@ -9,7 +9,8 @@
     "CO2E_unit": "kg",
     "emission_factor": "Stationary Combustion Factor 2025",
     "emission_factor_library": "GHG Protocol Library",
-    "timestamp": "2025-03-02T07:48:43.440546"
+    "timestamp": "2025-03-02T07:48:43.440546",
+    "organizational_unit": "Finland OU"
   },
   {
     "product_id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab31",
@@ -21,7 +22,8 @@
     "CO2E_unit": "kg",
     "emission_factor": "Stationary Combustion Factor 2025",
     "emission_factor_library": "GHG Protocol Library",
-    "timestamp": "2025-03-10T07:48:43.440546"
+    "timestamp": "2025-03-10T07:48:43.440546",
+    "organizational_unit": "Finland OU"
   },
   {
     "product_id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab32",
@@ -35,7 +37,8 @@
     "quantity_unit": "MWh",
     "consumption_end_date": "2025-03-20T07:48:43.440546",
     "emission_factor": "Electricity Factor 2025",
-    "emission_factor_library": "IEA Emission Factors"
+    "emission_factor_library": "IEA Emission Factors",
+    "organizational_unit": "Finland OU"
   },
   {
     "product_id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab33",
@@ -49,7 +52,8 @@
     "quantity_unit": "MWh",
     "consumption_end_date": "2025-03-25T07:48:43.440546",
     "emission_factor": "Electricity Factor 2025",
-    "emission_factor_library": "IEA Emission Factors"
+    "emission_factor_library": "IEA Emission Factors",
+    "organizational_unit": "Finland OU"
   },
   {
     "product_id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab34",
@@ -61,7 +65,8 @@
     "CO2E_unit": "kg",
     "emission_factor": "Scope 3 Packages Factor",
     "emission_factor_library": "DEFRA Library",
-    "timestamp": "2025-03-10T07:48:43.440546"
+    "timestamp": "2025-03-10T07:48:43.440546",
+    "organizational_unit": "Finland OU"
   },
   {
     "product_id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
@@ -73,7 +78,8 @@
     "CO2E_unit": "kg",
     "emission_factor": "Scope 3 Wood Factor",
     "emission_factor_library": "DEFRA Library",
-    "timestamp": "2025-03-14T07:48:43.440546"
+    "timestamp": "2025-03-14T07:48:43.440546",
+    "organizational_unit": "Finland OU"
   },
   {
     "product_id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab37",
@@ -85,7 +91,8 @@
     "CO2E_unit": "kg",
     "emission_factor": "Scope 3 Steel Factor",
     "emission_factor_library": "DEFRA Library",
-    "timestamp": "2025-03-15T07:48:43.440546"
+    "timestamp": "2025-03-15T07:48:43.440546",
+    "organizational_unit": "Finland OU"
   },
   {
     "product_id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab37",
@@ -98,7 +105,8 @@
     "quantity_unit": "kg",
     "transaction_start_date": "2025-03-27T00:00:00.000000",
     "transaction_end_date": "2025-03-27T07:48:43.440546",
-    "water_transaction_type": "Withdrawal"
+    "water_transaction_type": "Withdrawal",
+    "organizational_unit": "Finland OU"
   },
   {
     "product_id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab37",
@@ -111,7 +119,8 @@
     "quantity_unit": "kg",
     "transaction_start_date": "2025-03-30T00:00:00.000000",
     "transaction_end_date": "2025-03-30T07:48:43.440546",
-    "water_transaction_type": "Consumption"
+    "water_transaction_type": "Consumption",
+    "organizational_unit": "Finland OU"
   },
   {
     "product_id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab37",
@@ -123,7 +132,8 @@
     "quantity": 50,
     "quantity_unit": "MWh",
     "timestamp": "2025-02-14T07:48:43.440546",
-    "consumption_end_date": "2025-03-30T07:48:43.440546"
+    "consumption_end_date": "2025-03-30T07:48:43.440546",
+    "organizational_unit": "Finland OU"
   },
   {
     "product_id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab37",
@@ -135,6 +145,7 @@
     "quantity": 150,
     "quantity_unit": "MWh",
     "timestamp": "2025-02-14T07:48:43.440546",
-    "consumption_end_date": "2025-03-30T07:48:43.440546"
+    "consumption_end_date": "2025-03-30T07:48:43.440546",
+    "organizational_unit": "Finland OU"
   }
 ]
