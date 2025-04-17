@@ -27,6 +27,7 @@ class EmissionData(BaseModel):
     transaction_end_date: Optional[datetime] = None
     unit: Optional[str] = None
     water_transaction_type: Optional[str] = None
+    organizational_unit: Optional[str] = None
 
 # New models:
 class Metadata(BaseModel):
