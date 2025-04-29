@@ -11,9 +11,11 @@ app = FastAPI()
 class EmissionData(BaseModel):
     product_id: str
     name: str
+    product: str
+    company: str
+    source: str
     category: str
     sub_category: str
-    company: str
     CO2E: Optional[float] = None
     CO2E_unit: Optional[str] = None
     quantity: Optional[float] = None
@@ -22,12 +24,11 @@ class EmissionData(BaseModel):
     consumption_end_date: Optional[datetime] = None
     emission_factor: Optional[str] = None
     emission_factor_library: Optional[str] = None
-    facility: Optional[str] = None
     transaction_start_date: Optional[datetime] = None
     transaction_end_date: Optional[datetime] = None
-    unit: Optional[str] = None
     water_transaction_type: Optional[str] = None
     organizational_unit: Optional[str] = None
+    facility: Optional[str] = None
 
 # New models:
 class Metadata(BaseModel):
@@ -53,7 +54,7 @@ msm_payload = MSMWrapper(
     id=uuid.uuid4().hex[:24],
     metadata=Metadata(
         createdAt=datetime.utcnow(),
-        name="SUSTAINABILITY",
+        name="Sustainability data",
         readCountRemaining=77,
         timeToExpire=86400
     ),
