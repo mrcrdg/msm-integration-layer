@@ -37,7 +37,7 @@
     "product": "Wood",        
     "company": "Heat Supplier 1",
     "source": "Carbon emissions",
-    "category": "Scope 2:",
+    "category": "Scope 2",
     "sub_category": "Indirect emissions: Purchased heat (Emissions)",
     "CO2E": 40,
     "CO2E_unit": "kg",
