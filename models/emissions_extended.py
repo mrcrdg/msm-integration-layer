@@ -28,6 +28,7 @@ class ExtendedEmission(BaseModel):
     emissionFactor: Optional[str] = None
     emissionFactorLibrary: Optional[str] = None
     waterTransactionType: Optional[str] = None
+    fuelType: Optional[str] = None
     dataQualityType: Optional[str] = None
 
 class Metadata(BaseModel):
