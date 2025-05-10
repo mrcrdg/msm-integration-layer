@@ -1,6 +1,6 @@
 [
   {
-    "name": "ElectricVehicle1",
+    "name": "ElectricFleet",
     "originId": "01",
     "productName": "Hammer",
     "description": "Distance travelled in January",
@@ -29,7 +29,7 @@
     "dataQualityType": null
   },
   {
-    "name": "ElectricVehicle1",
+    "name": "ElectricFleet",
     "originId": "01",
     "productName": "Hammer",
     "description": "Distance travelled in February",
@@ -58,8 +58,8 @@
     "dataQualityType": null
   },
   {
-    "name": "ElectricVehicle2",
-    "originId": "01",
+    "name": "ElectricFleet",
+    "originId": "02",
     "productName": "Hammer",
     "description": "Distance travelled in January",
     "organizationUnit": "Logistics CO",
@@ -87,8 +87,8 @@
     "dataQualityType": null
   },
   {
-    "name": "ElectricVehicle2",
-    "originId": "01",
+    "name": "ElectricFleet",
+    "originId": "02",
     "productName": "Hammer",
     "description": "Distance travelled in February",
     "organizationUnit": "Logistics CO",
@@ -116,8 +116,8 @@
     "dataQualityType": null
   },
   {
-    "name": "BurningFuelVehicle1",
-    "originId": "02",
+    "name": "BurningFuelFleet",
+    "originId": "01",
     "productName": "Spanner",
     "description": "Distance travelled in January",
     "organizationUnit": "Logistics CO",
@@ -145,8 +145,8 @@
     "dataQualityType": null
   },
   {
-    "name": "BurningFuelVehicle1",
-    "originId": "02",
+    "name": "BurningFuelFleet",
+    "originId": "01",
     "productName": "Spanner",
     "description": "Distance travelled in February",
     "organizationUnit": "Logistics CO",
@@ -174,7 +174,7 @@
     "dataQualityType": null
   },
   {
-    "name": "BurningFuelVehicle2",
+    "name": "BurningFuelFleet",
     "originId": "02",
     "productName": "Spanner",
     "description": "Distance travelled in January",
@@ -203,7 +203,7 @@
     "dataQualityType": null
   },
   {
-    "name": "BurningFuelVehicle2",
+    "name": "BurningFuelFleet",
     "originId": "02",
     "productName": "Spanner",
     "description": "Distance travelled in February",
